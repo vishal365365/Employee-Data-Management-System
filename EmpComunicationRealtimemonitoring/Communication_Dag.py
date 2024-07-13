@@ -33,8 +33,9 @@ glue_configuration = [
 ]
 
 
-aws_access_key_id = "AKIATCKAPKAWT33JF2JT"
-aws_secret_access_key = "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"
+aws_access_key_id = ""
+aws_secret_access_key = ""
+
 client = boto3.client('emr', region_name='us-east-1'
                       ,aws_access_key_id=aws_access_key_id
                       ,aws_secret_access_key=aws_secret_access_key)
